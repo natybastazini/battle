@@ -18,8 +18,10 @@ body{
     background: #fdc57b;
 
     /* dando um posicionamento */
-    align-self: center;
-    margin: 50px;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 8%;
+
 }
 
     /* só repeti o processo para todos os outros quadrados */
@@ -27,24 +29,33 @@ body{
     width: 100px;
     height: 100px;
     background: #fdc57b;
-    align-self: center;
-    margin: 50px;
+    position: absolute;
+    margin-top: 5%;
+    margin-right: 8%;
+    top: 0;
+    right: 0;
 }
 
 .q3{
     width: 100px;
     height: 100px;
     background: #fdc57b;
-    align-self: center;
-    margin: 50px;
+    position: absolute;
+    margin-bottom: 5%;
+    margin-left: 8%;
+    bottom: 0;
+    left: 0;
 }
 
 .q4{
     width: 100px;
     height: 100px;
     background: #fdc57b;
-    align-self: center;
-    margin: 50px;
+    position: absolute;
+    margin-bottom: 5%;
+    margin-right: 8%;
+    bottom: 0;
+    right: 0;
 }
 
 .quadrado{
