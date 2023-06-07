@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* deixando o fundo da cor */
+body{
+    background-color: #62374e;
+}
+
+.q1{
+    /* difinindo tamanho */
+    width: 100px;
+    height: 100px;
+
+    /* definindo cor */
+    background: #fdc57b;
+
+    /* dando um posicionamento */
+    align-self: center;
+    margin: 50px;
+}
+
+    /* só repeti o processo para todos os outros quadrados */
+.q2{
+    width: 100px;
+    height: 100px;
+    background: #fdc57b;
+    align-self: center;
+    margin: 50px;
+}
+
+.q3{
+    width: 100px;
+    height: 100px;
+    background: #fdc57b;
+    align-self: center;
+    margin: 50px;
+}
+
+.q4{
+    width: 100px;
+    height: 100px;
+    background: #fdc57b;
+    align-self: center;
+    margin: 50px;
+}
+
+.quadrado{
+    /* criei uma grade para colocar na posição*/
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
